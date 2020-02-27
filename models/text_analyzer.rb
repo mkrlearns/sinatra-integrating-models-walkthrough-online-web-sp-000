@@ -37,7 +37,7 @@ class TextAnalyzer
       end
     end
 
-    puts(biggest.first)
+    puts(biggest.first.key)
     biggest
   end
 end
