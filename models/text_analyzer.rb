@@ -37,7 +37,7 @@ class TextAnalyzer
       end
     end
 
-    print(biggest.keys)
+    print(biggest.keys[0])
     biggest
   end
 end
