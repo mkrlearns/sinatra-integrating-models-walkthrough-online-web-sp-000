@@ -1,5 +1,5 @@
 require './config/environment'
-require_relative 'models/text_analyzer.rb'
+require_relative './models/text_analyzer.rb'
 
 post '/' do
   @analyzed_text = TextAnalyzer.new(params[:user_text])
