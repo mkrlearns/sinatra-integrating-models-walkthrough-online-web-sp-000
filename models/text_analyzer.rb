@@ -37,6 +37,7 @@ class TextAnalyzer
       end
     end
 
+    print(biggest)
     biggest
   end
 end
