@@ -1,11 +1,12 @@
+<%=txt=@analyzed_text%>
+<%=mul=txt.most_used_letter%>
+
 <h1>Your Text Analysis</h1>
 
-<%=text=@analyzed_text%>
-<h2>Number of Words: <%=text.count_of_words%></h2>
+<h2>Number of Words: <%=txt.count_of_words%></h2>
 
-<h2>Vowels: <%=text.count_of_vowels%></h2>
+<h2>Vowels: <%=txt.count_of_vowels%></h2>
 
-<h2>Consonants: <%=text.count_of_consonants%></h2>
+<h2>Consonants: <%=txt.count_of_consonants%></h2>
 
-<%=mul=text.most_used_letter%>
 <h2>Most Common Letter: <%=mul.keys[0].upcase%>, used <%=mul.values[0]%> times</h2>
